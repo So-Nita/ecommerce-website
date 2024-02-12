@@ -1,0 +1,23 @@
+/* Font  Raleway*/
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+/* Font  Playfair Display*/
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+
+:root {
+    --body-color : #f5f5f5;
+    --black-color: #000000;
+    --dark-color: #212222;
+    --dark-blue-color: #242434;
+    --main-color: #007bff;
+    --light-color: #eae3d9;
+    --navy-color: #165aaa;
+    --white-color: #ffffff;
+    --yellow-color: #db9457;
+    --light-gray-color: #AAAAAA80;
+}
+
+
+:root{
+    --Raleway-font : 'Raleway', sans-serif;
+    --Playfair-font: 'Playfair Display', serif;
+}
