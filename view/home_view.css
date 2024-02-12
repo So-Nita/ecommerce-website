@@ -78,7 +78,7 @@
 
 /* Container 5 */
 .container_5 {
-    height: 860px;
+    height: 950px;
     width: 100%;
 }
 .container_5 img{
@@ -138,6 +138,28 @@
     font-size: 17px;
 }
 
+.container_6 .row{
+    font-size: 17px;
+}
+.container_6 .row .text_menu{
+    font-family: var(--Raleway-font);
+}
+.container_6 .row .text_menu a{
+    font-family: var(--Raleway-font);
+    text-decoration: none;
+    color: var(--yellow-color);
+}
+.container_6 .menu_cafe{
+    background-color: var(--ash-gray-color);
+}
+.container_6 .menu_cafe h2{
+    font-family: var(--Raleway-font);
+    font-size: 25px;
+    font-weight: bolder;
+}
+.container_6 .menu_cafe hr{
+   height: 5px;
+}
 
 
 @media screen and (max-width: 1250px){
