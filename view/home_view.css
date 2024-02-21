@@ -78,7 +78,8 @@
 
 /* Container 5 */
 .container_5 {
-    height: 950px;
+    /* height: 950px; */
+    height: auto;
     width: 100%;
 }
 .container_5 img{
@@ -160,6 +161,10 @@
 .container_6 .menu_cafe hr{
    height: 5px;
 }
+.container_6 .row h6{
+    font-family: var(--Raleway-font);
+    font-size: 16px;
+}
 
 
 @media screen and (max-width: 1250px){
@@ -186,10 +191,11 @@
         margin-bottom: 40px;
         font-size: 13px;
     }
-    .container_3 {
-        height: 1500px;
-        background-color: blueviolet;
+    .container_3 ,.container_4, .container_5{
+        /* height: 1500px; */
+        height: auto!important;
     }
+    
     .container_4 .con4_p4{
         margin-top: 50px;
     }
@@ -200,7 +206,24 @@
 
 @media screen and (max-width: 580px){
     .container_3 {
-        height: 900px;
-        background-color: yellow;
+        height: 1380px;
+    }
+    .container_4{
+        height: auto!important;
+    }
+    .container_5 {
+        height: auto!important;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    .container_5 .row .text_share{
+        margin-bottom: 20px;
+    }
+     
+    .container_6 h2{
+        font-size: 14px;
+    }
+    .container_6 h6{
+        font-size: 12px;
     }
 }
