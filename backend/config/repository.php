@@ -1,6 +1,6 @@
 <?php 
     require_once 'configuration.php';
-    class Configuration 
+    class Repository 
     {
         private object $connection;
         public function __construct() 
