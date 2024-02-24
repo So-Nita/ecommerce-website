@@ -38,17 +38,19 @@
         {
             try
             {
-                $sql = $this->connection->prepare("Select * from $table");
+                $sql = "SELECT * FROM $table";
                 $statement = $this->connection->prepare($sql);
                 $statement->execute();
                 $result = $statement->fetchAll(PDO::FETCH_ASSOC);
                 return $result;
-            }catch(Exception $ex)
+            }
+            catch(Exception $ex)
             {
                 echo "Error: " . $ex->getMessage();
                 return null;
             }
         }
+
 
         public function Update($table, $data, $id)
         {

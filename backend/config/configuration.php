@@ -4,7 +4,7 @@
         private $servername = "localhost";
         private $username = "root";
         private $password = "";
-        private $dbname="test";
+        private $dbname="website";
         private $conn;
          
         private function Connection(){
