@@ -13,7 +13,7 @@
     </div>
 
     <!-- Content 3 -->
-    <div class="container_3 container-lg bg-primary h-auto">
+    <div class="container_3 container-lg h-auto">
         <div class="row row_1 pt-lg-2 pt-md-4 m-0" style="width: 100%; height: 100%;">
             <div class="img_block_1 col-lg-6 col-md-6 col-sm-12 p-0">
                 <div class="row w-100" >
