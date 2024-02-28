@@ -3,6 +3,7 @@
     <!-- Include container_1.html -->
     <?php include '../components/header_view.php'; ?>
     
+    <link rel="stylesheet" href="home_view.css">
     <!-- Content 2-->
     <div class="container_2 container py-lg-5 py-md-4 py-sm-5 mt-2">
         <div class="text_content_1 text-center mt-sm-2">Custom Blocks</div>
@@ -12,7 +13,7 @@
     </div>
 
     <!-- Content 3 -->
-    <div class="container_3 container-lg bg-primary ">
+    <div class="container_3 container-lg bg-primary h-auto">
         <div class="row row_1 pt-lg-2 pt-md-4 m-0" style="width: 100%; height: 100%;">
             <div class="img_block_1 col-lg-6 col-md-6 col-sm-12 p-0">
                 <div class="row w-100" >

@@ -55,7 +55,7 @@
 <style>
     .navbar-nav .nav-item{
         font-family: var(--Raleway-font);
-        font-size: 14px;
+        font-size: 13.5px;
         font-weight: 600;
         letter-spacing: 1.5px;
     }
@@ -82,12 +82,6 @@
         font-weight: 600;
         cursor: pointer;
     }
-    /* .dropdown-menu hr {
-        margin-left: 25px;
-        width: 15px;  
-        background-color: white; 
-    } */
-
     .navbar-nav .nav-item:hover .dropdown-menu {
         display: block;
     }
