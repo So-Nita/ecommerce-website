@@ -16,5 +16,11 @@ window.onscroll = () =>{
     }
 }
 
-// 
+// jQuery code to toggle dropdown-menu visibility
+$(document).ready(function(){
+    $('.navbar-nav .nav-item').hover(function(){
+        $(this).find('.dropdown-menu').toggleClass('show');
+    });
+});
+
 

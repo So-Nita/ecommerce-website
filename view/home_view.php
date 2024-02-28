@@ -1,57 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Coffee</title>
-    <link rel="stylesheet" href="home_view.css">
-    <link rel="stylesheet" href="../style/style.css">
-    <!-- Boostrap CDN -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <!-- End  -->
-    <!-- Font Asome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    <!-- End  -->
-</head>
-
-<body>
-    <div class="container_1 container-lg bg-light">
-        <div class="adverties text-center text-white px-lg-5" id="adv-1">
-            <p class="text-center text_1 py-lg-2" style="padding-left: 30px;">Free Shipping Order Of $ 35</p>
-        </div>
-        <header class="header bg-light" id="head">
-            <nav class="navbar navbar-expand-lg navbar-light py-lg-4" >
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="d-lg-none d-md-inline-flex align-items-center navbar-brand" >
-                    <img src="../style/Asset/Amaya-logo.png" height="45px" width="110px" alt="">
-                </div>
-                <div class="d-lg-none d-md-flex align-items-center navbar-brand">
-                    <i class="fas fa-search" style="font-size: 20px;"></i>
-                </div>
-                <div class="collapse navbar-collapse py-1" id="navbarText">
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item active"><a class="nav-link" href="#">HOME</a></li>
-                        <li class="nav-item px-lg-5"><a class="nav-link" href="#">PAGES</a></li>
-                        <li class="nav-item "><a class="nav-link" href="#">PRRICING</a></li>
-                        <li class="nav-item px-lg-5 "><a class="nav-link" href="#">ARTICLES</a></li>
-                    </ul>
-                    <ul class="navbar-nav mr-auto d-lg-flex d-md-none d-none" >
-                        <img src="../style/Asset/Amaya-logo.png" height="50px" width="100px" alt="" class="h-25 " style="margin-right: 100px;">
-                    </ul>
-                    <ul class="navbar-nav text-lg-end">
-                        <li class="nav-item"><a class="nav-link" href="#">WHOLESALE</a></li>
-                        <li class="nav-item px-lg-5"><a class="nav-link" href="#">SHOP</a></li>
-                        <li class="nav-item "><a class="nav-link" href="#">LOCATION</a></li>
-                    </ul>
-                </div>
-            </nav>
-        </header>
-    </div>
+    <?php include 'main_view.html'?>
+    
+    <!-- Include container_1.html -->
+    <?php include '../view/components/header_view.php'; ?>
+    
     <!-- Content 2-->
     <div class="container_2 container py-lg-5 py-md-4 py-sm-5 mt-2">
         <div class="text_content_1 text-center mt-sm-2">Custom Blocks</div>
@@ -224,9 +175,4 @@
         </div>
     </div>
 
-
-
     <!-- <script src="main.js"></script> -->
-    <script src="../javascript/home_view.js"></script>
-</body>
-</html>
