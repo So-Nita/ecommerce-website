@@ -1,0 +1,78 @@
+/* Font  Playfair Display*/
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+
+body {
+  margin-top: 40px; /* This margin just makes the text easier to read. You can remove it if you want since it can mess with your other styles. */
+}
+
+body::before {
+  display: none;
+  color: red;
+  font-size: 2rem;
+  font-weight: bold;
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
+.post-descrip{
+  font-size: 20px;
+  color: black;
+  font-family: 'Playfair Display', serif;
+}
+.post-descrip:hover{
+  color: #ffcb70 ;
+
+}
+/* This box class is purely used for explaining how the bootstrap grid system works. */
+.box {
+  background-color: white;
+  min-height: 40px;
+}
+
+
+@media (max-width: 575px) {
+  body::before {
+    display: none;
+  }
+  .nav-previous-wrap , .nav-next-wrap {
+    text-align: center;
+    padding: 12px;
+  }
+  .nav-previous-wrap img , .nav-next-wrap img {
+    width: 100% !important; /* Set maximum width to 100% */
+    height: auto; /* Maintain aspect ratio */
+  }
+  .post-descrip{
+    text-align: center;
+  }
+  .comments-area{
+    padding-top: 0px !important;
+    margin-top: 0px !important;
+  }
+}
+
+
+@media (min-width: 768px) {
+  body::before {
+    display: none;
+  }
+}
+
+@media (min-width: 992px) {
+  body::before {
+    display: none;
+  }
+}
+
+@media (min-width: 1200px) {
+  body::before {
+    display: none;
+  }
+}
+
+@media (min-width: 1400px) {
+  body::before {
+    display: none;
+  }
+}

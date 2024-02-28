@@ -1,4 +1,4 @@
-<?php include '../main_view.html'?>
+<?php include '../main_style.html'?>
 
 <link rel="stylesheet" href="../../style/style.css">
 
@@ -96,4 +96,4 @@
     }
 
 </style>
-<script src="../javascript/home_view.js"></script>
+<script src="../../javascript/home_view.js"></script>

@@ -1,7 +1,7 @@
-    <?php include 'main_view.html'?>
+    <?php include '../main_style.html'?>
     
     <!-- Include container_1.html -->
-    <?php include '../view/components/header_view.php'; ?>
+    <?php include '../components/header_view.php'; ?>
     
     <!-- Content 2-->
     <div class="container_2 container py-lg-5 py-md-4 py-sm-5 mt-2">
@@ -12,18 +12,18 @@
     </div>
 
     <!-- Content 3 -->
-    <div class="container_3 container-lg ">
+    <div class="container_3 container-lg bg-primary ">
         <div class="row row_1 pt-lg-2 pt-md-4 m-0" style="width: 100%; height: 100%;">
             <div class="img_block_1 col-lg-6 col-md-6 col-sm-12 p-0">
                 <div class="row w-100" >
-                    <div class="col-lg-12 p-0 h-50"><img src="../style/Asset/img-container3_1.jpg" alt=""></div>
+                    <div class="col-lg-12 p-0 h-50"><img src="../../style/Asset/img-container3_1.jpg" alt=""></div>
                 </div>
                 <div class="row pt-lg-2">
-                    <div class="col-lg-6 col-md-6 col-sm-6 w-100 p-0"><img class="img_2" src="../style/Asset/img-container3_2.jpeg" alt=""></div>
-                    <div class="col-lg-6 col-md-6 col-sm-6 p-0"><img class="img_3" src="../style/Asset/img-container3_3.jpeg" alt=""></div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 w-100 p-0"><img class="img_2" src="../../style/Asset/img-container3_2.jpeg" alt=""></div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 p-0"><img class="img_3" src="../../style/Asset/img-container3_3.jpeg" alt=""></div>
                 </div>
             </div>            
-            <div class="img_block_2 col-lg-6 col-md-6 col-sm-12"><img src="../style/Asset/img-container3_4.jpeg" alt=""></div>
+            <div class="img_block_2 col-lg-6 col-md-6 col-sm-12"><img src="../../style/Asset/img-container3_4.jpeg" alt=""></div>
         </div>
     </div>
 
@@ -48,7 +48,7 @@
             <div class="col-lg-4">
                 <div class="row p-0">
                     <div class="col-lg-12">
-                        <img class="position-relative" src="../style/Asset/img-container5_1.jpeg" alt="">
+                        <img class="position-relative" src="../../style/Asset/img-container5_1.jpeg" alt="">
                         <div class="img_desc m-auto text-center pt-1">Date : on MARCH 13, 2023</div>
                     </div>
                     <!--  -->
@@ -75,7 +75,7 @@
             <div class="col-lg-4 ">
                 <div class="row p-0">
                     <div class="col-lg-12 ">
-                        <img class="position-relative" src="../style/Asset/img-container5_2.jpeg" alt="">
+                        <img class="position-relative" src="../../style/Asset/img-container5_2.jpeg" alt="">
                         <div class="img_desc m-auto text-center pt-1">Date : on MARCH 13, 2023</div>
                     </div>
                     <!--  -->
@@ -102,7 +102,7 @@
             <div class="col-lg-4 ">
                 <div class="row p-0">
                     <div class="col-lg-12 position-relative">
-                        <img class="position-relative"  src="../style/Asset/img-container5_3.jpeg" alt="">
+                        <img class="position-relative"  src="../../style/Asset/img-container5_3.jpeg" alt="">
                         <div class="img_desc m-auto text-center pt-1">Date : on MARCH 13, 2023</div>
                     </div>
                     <!--  -->

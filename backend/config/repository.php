@@ -1,5 +1,6 @@
 <?php 
     require_once 'configuration.php';
+    require_once '../models/product.php';
     class Repository 
     {
         private object $connection;
@@ -34,14 +35,31 @@
             }
         }
 
-        public function Read($table)
+        public function ReadAll($table)
         {
             try
             {
                 $sql = "SELECT * FROM $table";
                 $statement = $this->connection->prepare($sql);
                 $statement->execute();
-                $result = $statement->fetchAll(PDO::FETCH_ASSOC);
+                $result = $statement->fetchAll(PDO::FETCH_CLASS, Product::class);
+                return $result;
+            }
+            catch(Exception $ex)
+            {
+                echo "Error: " . $ex->getMessage();
+                return null;
+            }
+        }
+
+        public function Read($table, $key)
+        {
+            try
+            {
+                $sql = "SELECT * FROM $table Where id = $key";
+                $statement = $this->connection->prepare($sql);
+                $statement->execute();
+                $result = $statement->fetchAll(PDO::FETCH_CLASS, Product::class);
                 return $result;
             }
             catch(Exception $ex)
@@ -52,7 +70,7 @@
         }
 
 
-        public function Update($table, $data, $id)
+        public function Update($table, $data, $key)
         {
             try
             {
@@ -61,6 +79,24 @@
                 {
                     $columns .= $key . " = " . $value . ", ";
                 }
+                $sql = "UPDATE $table SET $columns Where id = $key";
+                $result = $this->connection->exec($sql);
+                return ($result) ? true : false;
+            }catch(Exception $ex)
+            {
+                echo "Error: " . $ex->getMessage();
+            }
+        }
+
+        public function Delete($table, $key) 
+        {
+            try
+            {
+                $sql = "DELETE From $table Where id = $key";
+                $statement = $this->connection->prepare($sql);
+                $result = $statement->execute();
+                return ($result) ? true : false;
+
             }catch(Exception $ex)
             {
                 echo "Error: " . $ex->getMessage();
