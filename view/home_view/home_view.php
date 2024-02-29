@@ -5,48 +5,49 @@
     
     <link rel="stylesheet" href="home_view.css">
     <!-- Content 2-->
-    <div class="container_2 container py-lg-5 py-md-4 py-sm-5 mt-2">
-        <div class="text_content_1 text-center mt-sm-2">Custom Blocks</div>
-        <div class="text_content_2 text-center mt-5 mb-lg-5">Find below a demonstration of the custom Blocks included in the theme.</div>
-        <div class="text_content_3 text-center mt-5 pt-lg-5"><strong>AMAYA GALLERY BLOCK</strong></div>
-        <div class="text_content_4 text-center mt-1 mb-sm-2">masonry style gallery</div>
+    <div class="container_2 container py-lg-5 py-md-4 py-sm-5 mt-2" >
+        <div class="text_content_1 text-center mt-sm-2" data-aos="fade-left">Custom Blocks</div>
+        <div class="text_content_2 text-center mt-5 mb-lg-5" data-aos="fade-right">Find below a demonstration of the custom Blocks included in the theme.</div>
+        <div class="text_content_3 text-center mt-5 pt-lg-5" data-aos="fade-up"><strong>AMAYA GALLERY BLOCK</strong></div>
+        <div class="text_content_4 text-center mt-1 mb-sm-2" data-aos="slide-up">masonry style gallery</div>
     </div>
 
     <!-- Content 3 -->
-    <div class="container_3 container-lg h-auto">
+    <div class="container_3 container-lg h-auto" data-aos="slide-up">
         <div class="row row_1 pt-lg-2 pt-md-4 m-0" style="width: 100%; height: 100%;">
             <div class="img_block_1 col-lg-6 col-md-6 col-sm-12 p-0">
                 <div class="row w-100" >
                     <div class="col-lg-12 p-0 h-50"><img src="../../style/Asset/img-container3_1.jpg" alt=""></div>
                 </div>
-                <div class="row pt-lg-2">
+                <div class="row pt-lg-2" data-aos="fade-right">
                     <div class="col-lg-6 col-md-6 col-sm-6 w-100 p-0"><img class="img_2" src="../../style/Asset/img-container3_2.jpeg" alt=""></div>
                     <div class="col-lg-6 col-md-6 col-sm-6 p-0"><img class="img_3" src="../../style/Asset/img-container3_3.jpeg" alt=""></div>
                 </div>
             </div>            
-            <div class="img_block_2 col-lg-6 col-md-6 col-sm-12"><img src="../../style/Asset/img-container3_4.jpeg" alt=""></div>
+            <div class="img_block_2 col-lg-6 col-md-6 col-sm-12" data-aos="fade-right"><img src="../../style/Asset/img-container3_4.jpeg" alt=""></div>
         </div>
     </div>
 
     <!-- Container 4 -->
     <div class="container container_4 pt-lg-5 mt-5 pt-md-5 ">
-        <div class="row"><strong class="con4_p1 col-lg-12 text-center">AMAYA SUBTITLE BLOCK</strong></div>
-        <div class="row"><p class="con4_p2 col-lg-12 text-center pt-lg-4 pb-lg-5 pt-md-2 pb-mg-4">COFFEE SHOULD NEVER BE A COMPROMISE</p></div>
-        <div class="row"><strong class="con4_p3 col-lg-12 text-center mt-lg-5 pt-lg-5">AMAYA DIVIDER BLOCK</strong></div>
-        <div class="row"><p class="con4_p4 col-lg-12 text-center pt-2">horizontal or vertical</p></div>
+        <div class="row"><strong class="con4_p1 col-lg-12 text-center" data-aos="slide-up">AMAYA SUBTITLE BLOCK</strong></div>
+        <div class="row"><p class="con4_p2 col-lg-12 text-center pt-lg-4 pb-lg-5 pt-md-2 pb-mg-4" data-aos="slide-down">COFFEE SHOULD NEVER BE A COMPROMISE</p></div>
+        <div class="row"><strong class="con4_p3 col-lg-12 text-center mt-lg-5 pt-lg-5" data-aos="slide-up">AMAYA DIVIDER BLOCK</strong></div>
+        <div class="row"><p class="con4_p4 col-lg-12 text-center pt-2" data-aos="slide-right">horizontal or vertical</p></div>
 
-        <div class="py-lg-3"><hr class="line_hori" style="width: 50px; height: 2px; margin: 0 auto;"></div>
-        <div class="line_vert m-auto mt-5" style="width: 2px; height: 50px;"></div>
+        <div class="py-lg-3" data-aos="slide-up"><hr class="line_hori" style="width: 50px; height: 2px; margin: 0 auto;"></div>
+        <div class="line_vert m-auto mt-5" style="width: 2px; height: 50px;" data-aos="slide-up"></div>
 
-        <div class="row"><strong class="con4_p5 col-lg-12 text-center pt-lg-2 ">AMAYA BLOG BLOCK</strong></div>
-        <div class="row pb-lg-5"><p class="con4_p6 col-lg-12 text-center pt-2 ">display your latest posts</p></div>
+        <div class="row" data-aos="slide-up"><strong class="con4_p5 col-lg-12 text-center pt-lg-2 ">AMAYA BLOG BLOCK</strong></div>
+        <div class="row pb-lg-5" data-aos="slide-up"><p class="con4_p6 col-lg-12 text-center pt-2 ">display your latest posts</p></div>
 
     </div>
 
     <!-- Container 5 -->
-    <div class="container_5 container-xxl px-lg-5 pt-md-2 pt-sm-5 mt-md-5 mt-sm-5 ">
+    <div class="container_5 container-xxl px-lg-5 pt-md-2 pt-sm-5 mt-md-5 mt-sm-5 " data-aos="slide-up">
         <div class="row h-100 px-lg-5">
-            <div class="col-lg-4">
+            <!--  -->
+            <div class="col-lg-4" data-aos="slide-right">
                 <div class="row p-0">
                     <div class="col-lg-12">
                         <img class="position-relative" src="../../style/Asset/img-container5_1.jpeg" alt="">
@@ -73,7 +74,7 @@
                     <!--  -->
                 </div>
             </div>
-            <div class="col-lg-4 ">
+            <div class="col-lg-4 " data-aos="slide-up">
                 <div class="row p-0">
                     <div class="col-lg-12 ">
                         <img class="position-relative" src="../../style/Asset/img-container5_2.jpeg" alt="">
@@ -100,7 +101,7 @@
                     <!--  -->
                 </div>
             </div>
-            <div class="col-lg-4 ">
+            <div class="col-lg-4 " data-aos="slide-up">
                 <div class="row p-0">
                     <div class="col-lg-12 position-relative">
                         <img class="position-relative"  src="../../style/Asset/img-container5_3.jpeg" alt="">
@@ -177,3 +178,9 @@
     </div>
 
     <!-- <script src="main.js"></script> -->
+    <script>
+        console.log('ready');
+        AOS.init({
+            duration: 2000,
+        })
+    </script>
