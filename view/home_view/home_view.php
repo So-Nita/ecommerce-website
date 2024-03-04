@@ -132,46 +132,57 @@
     </div>
 
     <!-- Container 6 -->
-    <div class="container_6 container py-lg-5 py-md-1 py-sm-1 mt-lg-5 mt-md-1 mt-sm-1 bg-light">
-        <div class="row">
+    <div class="container_6 container py-lg-5 py-md-1 py-sm-1 mt-lg-5 mt-md-1 my-sm-5 bg-light">
+        <div class="row mt-lg-1 mt-md-1 mt-5">
             <div class="col-lg-12 text-center pt-md-1 pt-sm-1"><strong>AMAYA MENU BLOCK</strong></div>
             <div class="col-lg-12 text-center pt-md-1 pt-sm-1">
                 <p class="text_menu">find more examples on the <a href="" >Menu Examples</a> page</p>
             </div>
         </div>
-        <div class="row menu_cafe h-50 py-lg-4 py-md-0 px-lg-5">
-            <div class="col-lg-4 col-sm-12 bg-danger py-lg-4 px-lg-4">
-                <h2 class="py-lg-2 ">ICED COFFEE</h2>
+        <div class="row h-50 py-lg-4 py-md-0 px-lg-5">
+            <div class="col-lg-4 col-sm-12 py-lg-4 px-lg-4 mt-4">
+                <h2 class="py-lg-2 pt-sm-2" style="font-size: 25px;">ICED COFFEE</h2>
                 <hr style="margin: 0 auto; border-top: 4px solid black;"> 
                 <div class="row pt-3">
-                    <div class="col-lg-12 text-white py-1"> <h6>Iced Espresso</h6> </div>
-                    <div class="col-lg-12 text-white py-1"> <h6>Cold Brew Latte</h6> </div>
-                    <div class="col-lg-12 text-white py-1"> <h6>Nitro Cold Brew</h6> </div>
-                    <div class="col-lg-12 text-white py-1"> <h6>Doubleshot Iced Coffee</h6> </div>
+                    <div class="col-lg-12 py-1"> <h6 class="submenu-cafe" >Iced Espresso</h6> </div>
+                    <div class="col-lg-12 py-1"> <h6 class="submenu-cafe" >Cold Brew Latte</h6> </div>
+                    <div class="col-lg-12 py-1"> <h6 class="submenu-cafe" >Nitro Cold Brew</h6> </div>
+                    <div class="col-lg-12 py-1"> <h6 class="submenu-cafe" >Doubleshot Iced Coffee</h6> </div>
                 </div> 
             </div>
             <!--  -->
-            <div class="col-lg-8 col-sm-12 bg-dark py-lg-4 px-lg-5">
-                <h2 class="py-lg-2 text-white">BREWED COFFEE</h2>
+            <div class="col-lg-8 col-sm-12 px-lg-5 mt-4 py-4" style="background-color: var(--dark-color);">
+                <h2 class="pt-lg-1 py-lg-2 text-white pt-4 py-2" style="font-size: 25px;">BREWED COFFEE</h2>
                 <hr style="margin: 0 auto; border-top: 4px solid white;"> 
                 <div class="row pt-3">
-                    <div class="col-lg-6 text-white py-1"> <h6>French Press Coffee</h6> </div>
-                    <div class="col-lg-6 text-white py-1"> <h6>Aeropress</h6> </div>
-                    <div class="col-lg-6 text-white py-1"> <h6>Coffee Pour Over</h6> </div>
-                    <div class="col-lg-6 text-white py-1"> <h6>Single Origin</h6> </div>
-                    <div class="col-lg-6 text-white py-1"> <h6>Cafe Au Lait</h6></div>
-                    <div class="col-lg-6 text-white py-1"> <h6>Drip of the Day</h6> </div>
+                    <div class="col-lg-6 text-white py-1 "> <h6 class="submenu-cafe" >French Press Coffee</h6> </div>
+                    <div class="col-lg-6 text-white py-1 "> <h6 class="submenu-cafe" >Aeropress</h6> </div>
+                    <div class="col-lg-6 text-white py-1 "> <h6 class="submenu-cafe" >Coffee Pour Over</h6> </div>
+                    <div class="col-lg-6 text-white py-1 "> <h6 class="submenu-cafe" >Single Origin</h6> </div>
+                    <div class="col-lg-6 text-white py-1 "> <h6 class="submenu-cafe" >Cafe Au Lait</h6></div>
+                    <div class="col-lg-6 text-white py-1 "> <h6 class="submenu-cafe" >Drip of the Day</h6> </div>
                 </div>
             </div>
         </div>
-        <div class="row h-50 py-lg-3 px-lg-5">
-            <div class="col-lg-4 bg-danger py-lg-5 px-lg-4">
-                <h2 class="py-lg-2 px-sm-4">ICED COFFEE</h2>
+        <div class="row h-50 py-lg-3 px-lg-5 py-4 mt-lg-0 mt-md-1 mt-3">
+            <div class="col-lg-4 bg-danger py-lg-5 px-lg-4 mt-5 mt-lg-1">
+                <h2 class="py-lg-2 px-sm-4" style="font-size: 25px;">NOT COFFEE</h2>
                 <hr style="margin: 0 auto; border-top: 4px solid black;"> 
+                <div class="row pt-3">
+                    <div class="col-lg-12 text-white py-1 justify-content-between"> 
+                        <h6 class="submenu-cafe" >Spring Water <br>250ml</h6> 
+                        <p>15</p>
+                    </div>
+                    <div class="col-lg-12 text-white py-1 "> <h6 class="submenu-cafe" >Aeropress</h6> </div>
+                    <div class="col-lg-12 text-white py-1 "> <h6 class="submenu-cafe" >Coffee Pour Over</h6> </div>
+                    <div class="col-lg-12 text-white py-1 "> <h6 class="submenu-cafe" >Single Origin</h6> </div>
+                    <div class="col-lg-12 text-white py-1 "> <h6 class="submenu-cafe" >Cafe Au Lait</h6></div>
+                    <div class="col-lg-12 text-white py-1 "> <h6 class="submenu-cafe" >Drip of the Day</h6> </div>
+                </div>
             </div>
             <!--  -->
-            <div class="col-lg-8 bg-dark py-lg-3 px-lg-5">
-                <h2 class="py-lg-2 text-white">BREWED COFFEE</h2>
+            <div class="col-lg-8 bg-dark py-lg-3 px-lg-5  mt-5 mt-lg-1">
+                <h2 class="py-lg-2 text-white" style="font-size: 25px;">BREWED COFFEE</h2>
                 <hr style="margin: 0 auto; border-top: 4px solid white;"> 
             </div>
         </div>

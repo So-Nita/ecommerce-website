@@ -139,9 +139,6 @@ body{
     font-size: 17px;
 }
 
-.container_6 .row{
-    font-size: 17px;
-}
 .container_6 .row .text_menu{
     font-family: var(--Raleway-font);
 }
@@ -150,10 +147,8 @@ body{
     text-decoration: none;
     color: var(--yellow-color);
 }
-.container_6 .menu_cafe{
-    background-color: var(--ash-gray-color);
-}
-.container_6 .menu_cafe h2{
+ 
+.container_6 .row h2{
     font-family: var(--Raleway-font);
     font-size: 25px;
     font-weight: bolder;
@@ -161,9 +156,9 @@ body{
 .container_6 .menu_cafe hr{
    height: 5px;
 }
-.container_6 .row h6{
+.container_6 .row .submenu-cafe {
     font-family: var(--Raleway-font);
-    font-size: 16px;
+    font-size: 15.3px;
 }
 
 
@@ -215,10 +210,14 @@ body{
         margin-bottom: 20px;
     }
      
-    .container_6 h2{
-        font-size: 14px;
+    .container_6 .row .menu-cafe h2{
+        font-size: 25px;
     }
-    .container_6 h6{
-        font-size: 12px;
+    .container_6 .row{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .container_6 .row .submenu-cafe {
+        font-size: 15.3px;
     }
 }
