@@ -168,16 +168,41 @@
             <div class="col-lg-4 bg-danger py-lg-5 px-lg-4 mt-5 mt-lg-1">
                 <h2 class="py-lg-2 px-sm-4" style="font-size: 25px;">NOT COFFEE</h2>
                 <hr style="margin: 0 auto; border-top: 4px solid black;"> 
-                <div class="row pt-3">
-                    <div class="col-lg-12 text-white py-1 justify-content-between"> 
-                        <h6 class="submenu-cafe" >Spring Water <br>250ml</h6> 
-                        <p>15</p>
+                <div class="row pt-3" >
+                    <div class="col-lg-12 text-white pt-1 justify-content-between" > 
+                        <div class="row submenu-cafe justify-content-between " style="color:var(--gray)">
+                            <h6 class="col-10">Spring Water <p style="font-size: 13.6px;">sp 250ml</p></h6> 
+                            <span class="col-2">15</span>
+                        </div>
                     </div>
-                    <div class="col-lg-12 text-white py-1 "> <h6 class="submenu-cafe" >Aeropress</h6> </div>
-                    <div class="col-lg-12 text-white py-1 "> <h6 class="submenu-cafe" >Coffee Pour Over</h6> </div>
-                    <div class="col-lg-12 text-white py-1 "> <h6 class="submenu-cafe" >Single Origin</h6> </div>
-                    <div class="col-lg-12 text-white py-1 "> <h6 class="submenu-cafe" >Cafe Au Lait</h6></div>
-                    <div class="col-lg-12 text-white py-1 "> <h6 class="submenu-cafe" >Drip of the Day</h6> </div>
+                    <!--  -->
+                    <div class="col-lg-12 text-white pt-1 justify-content-between" > 
+                        <div class="row submenu-cafe justify-content-between" style="color:var(--gray)">
+                            <h6 class="col-10">Ginger skinny lemonade <p style="font-size: 13.6px;">Water, lemon, agave nectar and fresh ginger</p></h6> 
+                            <span class="col-2">2.5</span>
+                        </div>
+                    </div>
+                    <!--  -->
+                    <div class="col-lg-12 text-white pt-1 justify-content-between" > 
+                        <div class="row submenu-cafe justify-content-between" style="color:var(--gray)">
+                            <h6 class="col-10">Ginger skinny lemonade <p style="font-size: 13.6px;">Water, lemon, agave nectar and fresh ginger</p></h6> 
+                            <span class="col-2">2.5</span>
+                        </div>
+                    </div>
+                    <!--  -->
+                    <div class="col-lg-12 text-white pt-1 justify-content-between" > 
+                        <div class="row submenu-cafe justify-content-between " style="color:var(--gray)">
+                            <h6 class="col-10">Rishi Tea</h6> 
+                            <span class="col-2">3</span>
+                        </div>
+                    </div>
+                    <!--  -->
+                    <div class="col-lg-12 text-white pt-1 justify-content-between" > 
+                        <div class="row submenu-cafe justify-content-between px-3" style="color:var(--gray)">
+                            <h6>Hot Chocolate</h6> 
+                            <span >2.5</span>
+                        </div>
+                    </div>
                 </div>
             </div>
             <!--  -->

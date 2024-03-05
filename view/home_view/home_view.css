@@ -159,7 +159,8 @@ body{
 .container_6 .row .submenu-cafe {
     font-family: var(--Raleway-font);
     font-size: 15.3px;
-}
+    color:var(--gray);
+}   
 
 
 @media screen and (max-width: 1250px){
