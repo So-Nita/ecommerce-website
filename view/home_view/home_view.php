@@ -130,16 +130,16 @@
             </div>
         </div>
     </div>
-
-    <!-- Container 6 -->
-    <div class="container_6 container py-lg-5 py-md-1 py-sm-1 mt-lg-5 mt-md-1 my-sm-5 bg-light">
+<!--  -->
         <div class="row mt-lg-1 mt-md-1 mt-5">
             <div class="col-lg-12 text-center pt-md-1 pt-sm-1"><strong>AMAYA MENU BLOCK</strong></div>
             <div class="col-lg-12 text-center pt-md-1 pt-sm-1">
                 <p class="text_menu">find more examples on the <a href="" >Menu Examples</a> page</p>
             </div>
         </div>
-        <div class="row h-50 py-lg-4 py-md-0 px-lg-5">
+    <!-- Container 6 -->
+    <div class="container_6 container py-lg-5 py-md-1 py-sm-1 mt-lg-5 mt-md-1 my-sm-5 px-0 bg-light">
+        <div class="row h-50 py-lg-4 py-md-0 px-lg-5" >
             <div class="col-lg-4 col-sm-12 py-lg-4 px-lg-4 mt-4">
                 <h2 class="py-lg-2 pt-sm-2" style="font-size: 25px;">ICED COFFEE</h2>
                 <hr style="margin: 0 auto; border-top: 4px solid black;"> 
@@ -154,18 +154,18 @@
             <div class="col-lg-8 col-sm-12 px-lg-5 mt-4 py-4" style="background-color: var(--dark-color);">
                 <h2 class="pt-lg-1 py-lg-2 text-white pt-4 py-2" style="font-size: 25px;">BREWED COFFEE</h2>
                 <hr style="margin: 0 auto; border-top: 4px solid white;"> 
-                <div class="row pt-3">
-                    <div class="col-lg-6 text-white py-1 "> <h6 class="submenu-cafe" >French Press Coffee</h6> </div>
-                    <div class="col-lg-6 text-white py-1 "> <h6 class="submenu-cafe" >Aeropress</h6> </div>
-                    <div class="col-lg-6 text-white py-1 "> <h6 class="submenu-cafe" >Coffee Pour Over</h6> </div>
-                    <div class="col-lg-6 text-white py-1 "> <h6 class="submenu-cafe" >Single Origin</h6> </div>
-                    <div class="col-lg-6 text-white py-1 "> <h6 class="submenu-cafe" >Cafe Au Lait</h6></div>
-                    <div class="col-lg-6 text-white py-1 "> <h6 class="submenu-cafe" >Drip of the Day</h6> </div>
+                <div class="row pt-3 ">
+                    <div class="col-lg-6  py-1 "> <h6 class="submenu-cafe text-white" >French Press Coffee</h6> </div>
+                    <div class="col-lg-6  py-1 "> <h6 class="submenu-cafe text-white" >Aeropress</h6> </div>
+                    <div class="col-lg-6  py-1 "> <h6 class="submenu-cafe text-white" >Coffee Pour Over</h6> </div>
+                    <div class="col-lg-6  py-1 "> <h6 class="submenu-cafe text-white" >Single Origin</h6> </div>
+                    <div class="col-lg-6  py-1 "> <h6 class="submenu-cafe text-white" >Cafe Au Lait</h6></div>
+                    <div class="col-lg-6  py-1 "> <h6 class="submenu-cafe text-white" >Drip of the Day</h6> </div>
                 </div>
             </div>
         </div>
         <div class="row h-50 py-lg-3 px-lg-5 py-4 mt-lg-0 mt-md-1 mt-3">
-            <div class="col-lg-4 bg-danger py-lg-5 px-lg-4 mt-5 mt-lg-1">
+            <div class="col-lg-4 py-lg-5 px-lg-4 mt-3 mt-lg-1">
                 <h2 class="py-lg-2 px-sm-4" style="font-size: 25px;">NOT COFFEE</h2>
                 <hr style="margin: 0 auto; border-top: 4px solid black;"> 
                 <div class="row pt-3" >
@@ -206,11 +206,60 @@
                 </div>
             </div>
             <!--  -->
-            <div class="col-lg-8 bg-dark py-lg-3 px-lg-5  mt-5 mt-lg-1">
-                <h2 class="py-lg-2 text-white" style="font-size: 25px;">BREWED COFFEE</h2>
-                <hr style="margin: 0 auto; border-top: 4px solid white;"> 
+            <div class="col-lg-8 bg-light py-lg-3 px-lg-5  mt-5 mt-lg-1">
+                <h2 class="py-lg-2 " style="font-size: 25px;">BREWED COFFEE</h2>
+                <hr style="margin: 0 auto; border-top: 4px solid #000;"> 
+                <div class="row pt-4">
+                    <!-- 1 -->
+                    <div class="col-lg-6 pt-1">
+                        <div class="row submenu-cafe justify-content-between " style="color:var(--gray)">
+                            <h6 class="col-10">Spring Water <div class="pt-2" style="font-size: 13.6px;line-height:20px">Pitaya, banana, pineapple, coconut, topped with hempseed granola, coconut flakes, banana and agave nectar</div></h6> 
+                            <span class="col-2">15</span>
+                        </div>
+                    </div>
+                    <!-- 2 -->
+                    <div class="col-lg-6 pt-1">
+                        <div class="row submenu-cafe justify-content-between " style="color:var(--gray)">
+                            <h6 class="col-10">Scrambled Eggs & Organic Salmon<div class="pt-2" style="font-size: 13.6px; line-height:20px">served on sourdough bread, topped with rucola and creme fraiche</div></h6> 
+                            <span class="col-2">8.5</span>
+                        </div>
+                    </div>
+                    <!-- 3 -->
+                    <div class="col-lg-6 pt-1">
+                        <div class="row submenu-cafe justify-content-between " style="color:var(--gray)">
+                            <h6 class="col-10">Cornbread French Toast <div class="pt-2" style="font-size: 13.6px;line-height:20px">with bacon, rucola and avocado</div></h6> 
+                            <span class="col-2">8</span>
+                        </div>
+                    </div>
+                    <!-- 4 -->
+                    <div class="col-lg-6 pt-1">
+                        <div class="row submenu-cafe justify-content-between " style="color:var(--gray)">
+                            <h6 class="col-10">Fruit Salad with Yuzu Vanilla Syrup and Fresh Mint <div class="pt-2" style="font-size: 13.6px;line-height:20px">Melon, pineapple, strawberries, mango and banana</div></h6> 
+                            <span class="col-2">15</span>
+                        </div>
+                    </div>
+                    <!-- 5 -->
+                    <div class="col-lg-6 pt-1">
+                        <div class="row submenu-cafe justify-content-between " style="color:var(--gray)">
+                            <h6 class="col-10">Baked Eggs & Chorizo<div class="pt-2" style="font-size: 13.6px; line-height:20px">with tomato and pepper ragout and greek yoghurt</div></h6> 
+                            <span class="col-2">8.5</span>
+                        </div>
+                    </div>
+                    <!-- 6 -->
+                    <div class="col-lg-6 pt-1">
+                        <div class="row submenu-cafe justify-content-between " style="color:var(--gray)">
+                            <h6 class="col-10">Lavender Scented Pancakes<div class="pt-2" style="font-size: 13.6px;line-height:20px">Raspberries, vanilla butter</div></h6> 
+                            <span class="col-2">7</span>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
+    </div>
+    <!-- Container 7 -->
+    <div class="container pt-5">
+        <p class="text-center"><strong>AMAYA HERO IMAGE OR VIDEO BLOCK</strong></p>
+        <p class="text-center">Example 1: Background Image / Dark Overlay 50% Width / White + Theme Color</p>
     </div>
 
     <!-- <script src="main.js"></script> -->
