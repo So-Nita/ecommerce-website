@@ -53,6 +53,10 @@
     </header>
 </div>
 <style>
+    .container_1 header{
+        /* box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px; */
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
     .navbar-nav .nav-item{
         font-family: var(--Raleway-font);
         font-size: 13.5px;

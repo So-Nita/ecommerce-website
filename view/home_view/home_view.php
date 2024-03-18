@@ -131,16 +131,16 @@
         </div>
     </div>
 <!--  -->
-        <div class="row mt-lg-1 mt-md-1 mt-5">
+        <div class="row mt-lg-1 mt-md-1 mt-5" data-aos="slide-up">
             <div class="col-lg-12 text-center pt-md-1 pt-sm-1"><strong>AMAYA MENU BLOCK</strong></div>
             <div class="col-lg-12 text-center pt-md-1 pt-sm-1">
                 <p class="text_menu">find more examples on the <a href="" >Menu Examples</a> page</p>
             </div>
         </div>
     <!-- Container 6 -->
-    <div class="container_6 container py-lg-5 py-md-1 py-sm-1 mt-lg-5 mt-md-1 my-sm-5 px-0 bg-light">
+    <div class="container_6 container py-lg-5 py-md-1 py-sm-1 mt-lg-5 mt-md-1 my-sm-5 px-0 bg-light" data-aos="slide-up">
         <div class="row h-50 py-lg-4 py-md-0 px-lg-5" >
-            <div class="col-lg-4 col-sm-12 py-lg-4 px-lg-4 mt-4">
+            <div class="col-lg-4 col-sm-12 py-lg-4 px-lg-4 mt-4" data-aos="slide-up">
                 <h2 class="py-lg-2 pt-sm-2" style="font-size: 25px;">ICED COFFEE</h2>
                 <hr style="margin: 0 auto; border-top: 4px solid black;"> 
                 <div class="row pt-3">
@@ -151,7 +151,7 @@
                 </div> 
             </div>
             <!--  -->
-            <div class="col-lg-8 col-sm-12 px-lg-5 mt-4 py-4" style="background-color: var(--dark-color);">
+            <div class="col-lg-8 col-sm-12 px-lg-5 mt-4 py-4" style="background-color: var(--dark-color);" data-aos="slide-up">
                 <h2 class="pt-lg-1 py-lg-2 text-white pt-4 py-2" style="font-size: 25px;">BREWED COFFEE</h2>
                 <hr style="margin: 0 auto; border-top: 4px solid white;"> 
                 <div class="row pt-3 ">
@@ -164,8 +164,8 @@
                 </div>
             </div>
         </div>
-        <div class="row h-50 py-lg-3 px-lg-5 py-4 mt-lg-0 mt-md-1 mt-3">
-            <div class="col-lg-4 py-lg-5 px-lg-4 mt-3 mt-lg-1">
+        <div class="row h-50 py-lg-3 px-lg-5 py-4 mt-lg-0 mt-md-1 mt-3" >
+            <div class="col-lg-4 py-lg-5 px-lg-4 mt-3 mt-lg-1" data-aos="slide-up">
                 <h2 class="py-lg-2 px-sm-4" style="font-size: 25px;">NOT COFFEE</h2>
                 <hr style="margin: 0 auto; border-top: 4px solid black;"> 
                 <div class="row pt-3" >
@@ -206,7 +206,7 @@
                 </div>
             </div>
             <!--  -->
-            <div class="col-lg-8 bg-light py-lg-3 px-lg-5  mt-5 mt-lg-1">
+            <div class="col-lg-8 bg-light py-lg-3 px-lg-5  mt-5 mt-lg-1" data-aos="slide-up">
                 <h2 class="py-lg-2 " style="font-size: 25px;">BREWED COFFEE</h2>
                 <hr style="margin: 0 auto; border-top: 4px solid #000;"> 
                 <div class="row pt-4">
@@ -257,10 +257,26 @@
         </div>
     </div>
     <!-- Container 7 -->
-    <div class="container pt-5">
+    <div class="container-fluid container-7 pt-5 w-100 h-100" style="height: 900px;">
         <p class="text-center"><strong>AMAYA HERO IMAGE OR VIDEO BLOCK</strong></p>
         <p class="text-center">Example 1: Background Image / Dark Overlay 50% Width / White + Theme Color</p>
+        <div class="row " style="background-image: url(../../style/Asset/Product-Adv1.jpg);">
+            <div class="col-12 col-lg-6 col-md-6 ">
+                <img src="https://www.amayatheme.redsun.design/roastery/wp-content/uploads/sites/2/2020/12/Cold-Brew.jpg" alt="">
+            </div>
+            <div class="col-12 col-lg-6 col-md-6 d-flex align-items-center justify-content-end">
+                <div>
+                    <div class="subtitle-above text-start">MORE THAN JUST COLD COFFEE</div>
+                    <h2 class="mt-3 text-end">Nitro <em>Cold Brew</em> Coffee</h2>
+                    <hr style="width: 100px;" class="mx-auto">
+                    <div class="text-end">Refresh your mind with organic, sustainably-sourced cold brew coffee, delivered straight to your door.</div>
+                </div>
+            </div>
+        </div>
     </div>
+
+
+    <?php include '../components/footer_view.php'?>
 
     <!-- <script src="main.js"></script> -->
     <script>
@@ -269,3 +285,4 @@
             duration: 2000,
         })
     </script>
+    <!-- <video autoplay="" muted="" loop="" playsinline="" class="hero-bgvideo hero-background" src="https://www.amayatheme.redsun.design/roastery/wp-content/uploads/sites/2/2021/02/amaya-coffee-video-xs.mp4" style=""></video> -->

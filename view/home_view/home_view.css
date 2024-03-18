@@ -161,6 +161,21 @@ body{
     font-size: 15.3px;
     color:var(--gray);
 }   
+ 
+.container-7 .subtitle-above{
+    font-family: var(--Raleway-font);
+    font-size: 13.6px;
+    letter-spacing: 2px;
+    line-height: 1.75em;
+    text-transform: uppercase;
+    color: var(--yellow-color)!important;
+}
+.container-7 h2{
+    font-size: 53px;
+    line-height: 1.2em;
+    font-family: var(--Playfair-font);
+}
+
 
 
 @media screen and (max-width: 1250px){
